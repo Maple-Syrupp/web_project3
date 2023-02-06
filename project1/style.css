@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFKai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 1rem;
+  background-image: url("./img/background.png");
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+
+header div.top h3 {
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  background-color: black;
+}
+
+header nav ul li a.active {
+  color: yellow;
+}
+
+header nav ul li {
+  padding: 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: yellow;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.no-flex {
+  display: block;
+}
+
+main section {
+  padding: 1rem;
+}
+
+main section.left {
+  flex: 1 1 200px;
+}
+
+main section.left img {
+  width: 90%;
+}
+
+main section.right {
+  flex: 4 1 500px;
+}
+
+main section.left h3 {
+  margin-bottom: 1rem;
+}
+
+main section.left table {
+  margin-top: 1rem;
+}
+
+main section.left table,
+td,
+tr {
+  padding: 0.25rem;
+}
+
+main section.right h3 {
+  margin-top: 1rem;
+}
+
+main section.right p {
+  padding: 0.25rem 0;
+}
+
+main section.right ul {
+  margin-left: 2rem;
+}
+
+main section li.people {
+  list-style-type: none;
+  border: solid 2px orange;
+  padding: 10px 10px;
+  margin: 30px;
+}
+
+main section li h2 {
+  color: green;
+}
+
+main section li p.intro {
+  color: green;
+}
+
+main section li p.intro2 {
+  margin-top: 20px;
+}
+
+div.japan img {
+  width: 30%;
+}
+
+div.japan {
+  display: flex;
+  flex: 1 1 200px;
+}
+
+div.info {
+  padding: 3rem;
+}
+
+div.info p,
+ul {
+  padding: 0.3rem;
+}
+
+div.competition {
+  flex: 5 1 200px;
+  padding: 2rem;
+}
+
+div.competition h1 {
+  font-size: 2rem;
+  padding: 1rem;
+  color: green;
+}
+
+div.competition p,
+ul {
+  padding: 1rem;
+}
+
+section.down {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#chart_div {
+  flex: 1 1 200px;
+}
+
+div.china h1 {
+  padding: 1rem;
+  color: green;
+}
+
+div.china p {
+  padding: 1rem;
+}
+
+div.china table {
+  margin-left: 1rem;
+  border-collapse: collapse;
+}
+
+div.china th {
+  border: 1px solid white;
+  background-color: aqua;
+}
+
+div.china tr {
+  padding: 1rem;
+}
+
+div.china td {
+  text-align: left;
+}
+
+div.taiwan h1 {
+  color: green;
+  padding: 0.5rem;
+}
+
+div.taiwan p {
+  padding: 1rem;
+}
+
+div.taiwan li {
+  margin-left: 1rem;
+}
